@@ -53,3 +53,11 @@
   - 17:51 78mg/dL⁴(4³⁰,4⁶,〘W₂〙⁰)[ml.杏],{2R½I<B,}[ml.杏,南瓜籽仁]<!--〘W₂〙⁰: walking for 2H today-->
   - 20260301Sun〘W₂〙¹<!--The day 1 after walking for 2H-->
   - 18:03 160mg/dL¹(9¹⁸,9²⁰)[ct.+salt]<!--ct.=Carmién Tea-->
+
+## The devices and softwares used
+- Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my Dr. Bernstein's GlucograF DATA SHEET recording.
+- Software used on my phone: Markor, which is omnipotent in my BG recoding.
+- Softwares used on ubuntu:
+  - Zettlr.
+  - Openclaw: for data and papers web-fetch on Pubmed.
+  - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
