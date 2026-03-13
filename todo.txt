@@ -1,0 +1,6 @@
+[4D:12345][4D: [HOME][COPY][END][PASTE]][4D: [LEFT][UP][RIGHT][DOWN]][4D: [DEL][CUT][FDEL][WDEL]][4D:67890]
+{"title":"T1D",
+"onScreen":{"main":["[4D:0 ⁰[ALL]₀][4D:1A¹B₁][4D:2R²½₂][4D:3N³H₃][4D:  [COPY] [PASTE]]",
+"[4D:[LEFT] [UP]< ][4D:4I⁴T₄][4D:5鹽⁵內₅][4D:6⁻⁶⁺₆][4D:[RIGHT]>  [DOWN]]",
+"[SHIFT][4D:7p⁷r₇][4D:8t⁸v₈][4D:9w⁹+₉][DEL]",
+"[TOOL][ALTGR:,][SPACE][][SYM:.][ENTER]"]}}
