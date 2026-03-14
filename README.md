@@ -1,4 +1,4 @@
-*Last Updated: 2026-03-13*
+*Last Updated: 2026-03-14*
 ## Life contexts
 - Treat my mental problem first, then diabetes second.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
@@ -15,6 +15,7 @@
   - Falling trajectory → dose more conservatively
   - Example: fat-only evening + (4+4)T basal = safe environment for 2–2½H correction at projected 135–140
 - Pre-bed R (when serious hyper H may be used) essential for sleep quality and mental clarity — independent of BG control — likely via brain insulin pulsatility mechanism.
+- Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. Never assume immediate fasting-level insulin requirement after eating day.
 
 ## Notation decipherment
 - Insulin: H=Humalog, N=Novorapid, R=Regular human insulin, I=Insulatard (NPH), T=Tresiba
@@ -53,11 +54,12 @@
   - 17:51 78mg/dL⁴(4³⁰,4⁶,〘W₂〙⁰)[ml.杏],{2R½I<B,}[ml.杏,南瓜籽仁]<!--〘W₂〙⁰: walking for 2H today-->
   - 20260301Sun〘W₂〙¹<!--The day 1 after walking for 2H-->
   - 18:03 160mg/dL¹(9¹⁸,9²⁰)[ct.+salt]<!--ct.=Carmién Tea-->
+  - 15：55 81mg/dL⁰(2⁶,1⁵⁰,3²)<!--2h6m from lastest T, 1h50m from I, 3h2m from H/R/RI-->
 
-## Devices and softwares used
+## The devices and softwares used
 - Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my Dr. Bernstein's GlucograF DATA SHEET recording.
 - Software used on my phone: Markor, which is omnipotent in my BG recoding.
 - Softwares used on ubuntu:
   - Zettlr.
   - Openclaw: for data and papers web-fetch on Pubmed.
-  - Web-project of Claude and Grok: for my BG-record analysis and medical assistant.
+  - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
