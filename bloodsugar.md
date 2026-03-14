@@ -142,14 +142,14 @@
 1. 08:48 94mg/dL¹(6⁵⁸,)<!--pee₂+鹽. Feel away better, and no back sleep again-->
     - {7T>A,2½R>B}[cf.鹽]
 2. 13:05 54mg/dL₁(4⁶,4³)[豚三層+菜]
-     - {3⁻R½⁺I<B}(5¹⁴,5¹¹)[BT.鹽], 〘睡〙<!--BT.=bullet-proof tea. When eating meat, insulin must be injected or sleeping happens.-->
+    - {3⁻R½⁺I<B}(5¹⁴,5¹¹)[BT.鹽], 〘睡〙<!--BT.=bullet-proof tea. When eating meat, insulin must be injected or sleeping happens.-->
 3. 18:46 39mg/dL₂(9⁴⁵,4³¹)[BT.鹽]
-     - {3⁺R½I>B}[豚三層,菠菜. 油蔥酥, 鹽]
-     - {3H<B}(13²²,2³⁴),[油蔥酥,beer,豆腐,花生,鹽]
+    - {3⁺R½I>B}[豚三層,菠菜. 油蔥酥, 鹽]
+    - {3H<B}(13²²,2³⁴),[油蔥酥,beer,豆腐,花生,鹽]
 4. 00:57 112mg/dL₃(15¹⁸,2³³)
-     - {4½R>B,(6+6)T>內<A}
+    - {4½R>B,(6+6)T>內<A}
 5. 02:13 137mg/dL₄(0⁵⁰,0⁵³)
-     - {3½R<B}
+    - {3½R<B}
 
 #### 20260305Thu
 1. 06:54 26mg/dL₅(5³¹,4³⁹)[鹽,15cg,]〘睡〙
@@ -271,6 +271,7 @@
     - `{3⁺H2⁻R<B}`〘W₁〙[豆製品(少),cf.]
     - `{6I>A}`[豆製品,肉湯]
 4. 15：55 81mg/dL⁰(,1⁵⁰,)
+    - `{4⁻R>B}`[豚三層,egg₂,鹽]
 
 <!-- -->
 ---

@@ -51,12 +51,13 @@
   - 08:35 39mg/dL₉(8⁰⁸)[cf.杏],{09:30: 4½I>A}: I=insulatard (NPH)
   - 23:14 51mg/dL₉(10¹⁹/13⁴⁴,3⁴⁵)[ml₃],〖7T>內〗: durations of last injection are 10H19min from T, 13H44min from I, and 3H45min from R/H/N
   - 23:14 51mg/dL₉(10¹⁹/13⁴⁴,3⁴⁵)[ml₃],{7T>內}: ml₃=3 spoons of milk powder
-  - 17:51 78mg/dL⁴(4³⁰,4⁶,〘W₂〙⁰)[ml.杏],{2R½I<B,}[ml.杏,南瓜籽仁]<!--〘W₂〙⁰: walking for 2H today-->
-  - 20260301Sun〘W₂〙¹<!--The day 1 after walking for 2H-->
-  - 18:03 160mg/dL¹(9¹⁸,9²⁰)[ct.+salt]<!--ct.=Carmién Tea-->
-  - 15：55 81mg/dL⁰(2⁶,1⁵⁰,3²)<!--2h6m from lastest T, 1h50m from I, 3h2m from H/R/RI-->
+  - 17:51 78mg/dL⁴(4³⁰,4⁶,〘W₂〙⁰)[ml.杏],{2R½I<B,}[ml.杏,南瓜籽仁]: 〘W₂〙⁰=walking for 2H today
+  - 20260301Sun〘W₂〙¹: The day 1 after walking for 2H
+  - 18:03 160mg/dL¹(9¹⁸,9²⁰)[ct.+salt]: ct.=Carmién Tea
+  - 15：55 81mg/dL⁰(2⁶,1⁵⁰,3²): 2h6m from lastest T, 1h50m from I, 3h2m from H/R/RI
 
 ## The devices and softwares used
+- Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
 - Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my Dr. Bernstein's GlucograF DATA SHEET recording.
 - Software used on my phone: Markor, which is omnipotent in my BG recoding.
 - Softwares used on ubuntu:
