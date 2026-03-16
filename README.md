@@ -91,10 +91,12 @@
   - 15:55 81mg/dL⁰(2⁶,1⁵⁰,3²): 2h6m from lastest T, 1h50m from I, 3h2m from H/R/RI
 
 ## The devices and softwares used
-- Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
-- Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my Dr. Bernstein's GlucograF DATA SHEET recording.
-- Software used on my phone: Markor, which is omnipotent in my BG recoding.
-- Softwares used on ubuntu:
-  - Zettlr.
-  - Openclaw: for data and papers web-fetch on Pubmed.
-  - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
+1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
+2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my ***Dr. Bernstein's GlucograF DATA SHEET*** recording.
+3. Software used on my phone:
+    - ***Markor***, which is omnipotent in my BG recoding.
+    - ***Multiling O Keyboard***, which provides highy personalized diy keyboard in my notation-writing.
+4. Softwares used on ubuntu:
+    - Zettlr.
+    - Openclaw: for data and papers web-fetch on Pubmed.
+    - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
