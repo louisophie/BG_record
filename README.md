@@ -1,4 +1,4 @@
-*Last Updated: 2026-03-14*
+*Last Updated: 2026-03-16*
 ## Life contexts
 - Treat my mental problem first, then diabetes second.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
@@ -16,6 +16,40 @@
   - Example: fat-only evening + (4+4)T basal = safe environment for 2–2½H correction at projected 135–140
 - Pre-bed R (when serious hyper H may be used) essential for sleep quality and mental clarity — independent of BG control — likely via brain insulin pulsatility mechanism.
 - Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. Never assume immediate fasting-level insulin requirement after eating day.
+
+## Eating-out photo-check protocol
+- Upload food photos to models (Claude/Grok/AIs by Openclaw) before ordering/eating for starch+sugar risk assessment.
+- Claude will classify each dish as ✅Safe / ⚠️Caution / 🚨Avoid.
+
+### Visual risk indicators
+- 🚨 Fried/breaded coating (golden crispy exterior) = starch
+- 🚨 Shiny glaze or thick sauce = sugar+cornstarch
+- 🚨 Dark caramel/teriyaki colour on meat = sugar marinade
+- 🚨 味噌/照燒/糖醋/蜜汁/黑胡椒醬 = always sugar-based
+- ⚠️ Any visible sauce regardless of colour = potential hidden sugar
+- ⚠️ Packaged/convenience store meat = assume hidden starch+sugar
+- ⚠️ 漢堡排/丸類/加工肉品 = fillers and starch frequently added
+- ✅ Plain grilled/boiled/steamed meat with no sauce = safe
+- ✅ Visible uncoated egg/fish/pork belly = safe
+
+### Safe eating-out choices
+- Plain grilled meat (無醬烤肉)
+- Boiled/steamed protein (水煮/清蒸)
+- Hotpot with self-selected plain ingredients (自選火鍋料)
+- Eggs any style without sauce
+- Plain pork belly (五花肉/三層肉) without glaze
+
+### Always avoid when eating out
+- Any fried item (炸類) — breading always contains starch
+- 味噌/照燒/蜜汁/糖醋/黑胡椒 sauces — always sugar
+- Convenience store prepared meats — undetectable coatings
+- 漢堡排/肉丸/貢丸/魚丸 — starch fillers
+- Any "looks plain but packaged" meat — assume hidden marinade
+
+### Bolus adjustment for eating out
+- ✅ Safe: normal calculated dose
+- ⚠️ Caution: +1–2u pre-emptive, recheck BG 1h post-meal
+- 🚨 Avoid: skip dish or remove coating — if eaten accidentally, aggressive correction immediately + monitor every 30min
 
 ## Notation decipherment
 - Insulin: H=Humalog, N=Novorapid, R=Regular human insulin, I=Insulatard (NPH), T=Tresiba
