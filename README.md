@@ -1,4 +1,4 @@
-*Last Updated: 2026-03-16*
+*Last Updated: 2026-03-23*
 ## Life contexts
 - Treat my mental problem first, then diabetes second.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
@@ -16,7 +16,8 @@
   - Example: fat-only evening + (4+4)T basal = safe environment for 2–2½H correction at projected 135–140
 - Pre-bed R (when serious hyper H may be used) essential for sleep quality and mental clarity — independent of BG control — likely via brain insulin pulsatility mechanism.
 - Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. Never assume immediate fasting-level insulin requirement after eating day.
-
+- 2h maximum gap between R injections in eating-evening to maintain brain insulin pulsatility
+- Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject small R/H/N immediately
 ## Eating-out photo-check protocol
 - Upload food photos to models (Claude/Grok/AIs by Openclaw) before ordering/eating for starch+sugar risk assessment.
 - Claude will classify each dish as ✅Safe / ⚠️Caution / 🚨Avoid.
@@ -100,3 +101,6 @@
     - Zettlr.
     - Openclaw: for data and papers web-fetch on Pubmed.
     - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
+
+## Chat of Claude's Project
+https://claude.ai/share/f132d0f7-9ec5-4f56-ae3b-6a0716883b5b
