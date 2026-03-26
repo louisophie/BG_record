@@ -456,6 +456,8 @@
 
 #### 20260326Thu
 1. 07:11 37mg/dL₄(4²³,,4²⁵)[南瓜子,ml.(少),cf.]<!--0,5,5.5; feeling quite good. BG will go up 'cause DP, so I'll check it later.-->
+2. 10:10 161mg/dL₅(7²²,,7²⁴)
+    - `{6H>B,7T>A}`
 
 <!--  -->
     - `{}`
