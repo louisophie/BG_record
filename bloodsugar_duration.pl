@@ -59,7 +59,7 @@ foreach my $i (0 .. $#dosage) {
         $duration[$i] = "\e[1;4m$duration[$i]\e[0m";
     }    # Underline if it contains T/I with < or >
     print "$time[$i] {$dosage[$i]} $duration[$i]\n";
-    if ($i == $d1 - 1) {    # Print second heading when we reach the split point
+    if ($i == $d1 - 1) {    # Print second heading when reaching the split point
         print "#### $date[1]$week[1]\n";
     }
 }
