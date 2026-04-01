@@ -69,7 +69,7 @@ foreach my$i (@lines_of_duration){	#$i==line number of /`\{(\d\d:\d\d) (.+)\}`/ 
 }
 foreach(@lines){
 	#chomp;
-	s/^(\d.) / $1/;
+	s/^(\d+.) / $1/;
 	chomp if $_ eq $lines[-1];
 	print;
 }
