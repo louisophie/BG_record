@@ -68,3 +68,4 @@ foreach my$i (@lines_of_duration){	#$i==line number of /`\{(\d\d:\d\d) (.+)\}`/ 
 	$t++;
 }
 print"@lines";
+print "\x1b[2A";
