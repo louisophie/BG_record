@@ -7,7 +7,7 @@ open my $fh, '<', 'bloodsugar.md' or die "Cannot open bloodsugar.md: $!";
 my$t=0;
 foreach(reverse<$fh>){
 	#print;
-	push@lines,$_ if /(`\{\d\d:)|(####)/;
+	push@lines,$_ unless /^$/;
 	$t++ if /####/;
 	last if $t==2;
 }
@@ -15,8 +15,9 @@ foreach(reverse<$fh>){
 #print foreach @lines;print"\n";
 #print"\n$#lines\n";
 
-my($date,$d,$d1,$d2);
-my(@date,@week,@time,@date_time,@date_time_dosage,@dosage,@time_dosage);
+my($date,$d,$d1);
+my$d2=0;
+my(@date,@week,@lines_of_duration,@time,@date_time,@date_time_dosage,@dosage,@time_dosage);
 foreach(@lines){
 	if(/^#### (\d+)(.+)/){
 		$date=$1;
@@ -26,6 +27,7 @@ foreach(@lines){
 	}
 	#my$date=$1 if /^#### (\d+)/;
 	if(/`\{(\d\d:\d\d) (.+)\}`/){
+		push (@lines_of_duration,$d2);	#e.g., 2nd of @lines_of_duration is the 5th line of @lines
 		push (@date_time,"$date $1");
 		push (@time,$1);
 		#push (@date_time_dosage,"$date $1 $2");
@@ -33,6 +35,7 @@ foreach(@lines){
 		push (@dosage,$2);
 		$d1++ if $d==1;
 	}
+	$d2++;
 }
 
 my@seconds;	#make it keep going up.
@@ -51,16 +54,17 @@ foreach(@seconds){
 }
 #print and print"\n" foreach(@duration);
 
-print "#### $date[0]$week[0]\n";
-foreach my $i (0 .. $#dosage) {
-    $dosage[$i] =~ s/((<|>)(内|T|A))/\e[1;37;41m$1\e[0m/g;    # Highlight < > 内 T A in red background
-    if ($dosage[$i] =~ /((T|I)(>|<))|(T|I)\e\[1;37;41m(>|<)/) {
-        $dosage[$i]  = "\e[1;4m$dosage[$i]\e[0m";
-        $duration[$i] = "\e[1;4m$duration[$i]\e[0m";
-    }    # Underline if it contains T/I with < or >
-    print "$time[$i] {$dosage[$i]} $duration[$i]";
-	print "\n" unless $i==$#dosage;
-    if ($i == $d1 - 1) {    # Print second heading when reaching the split point
-        print "#### $date[1]$week[1]\n";
-    }
+$t=0;
+foreach my$i (@lines_of_duration){	#$i==line number of /`\{(\d\d:\d\d) (.+)\}`/ in @lines, $t == line number of @lines_of_duration, @duration, @date_time, @time and @dosage
+    $lines[$i] =~ s/((<|>)(内|T|A))/\e[1;37;41m$1\e[0m/g;    # Highlight < > 内 T A in red background
+	if($lines[$i] =~ /((T|I)(>|<))|(T|I)\e\[1;37;41m(>|<)/){
+		$lines[$i] =~ s/(`\{.+\}`)/\e[1;4m$1\e[0m/g;
+		$duration[$t] = "\e[1;4m$duration[$t]\e[0m";
+	}
+	$lines[$i]=~s/^ +- //;
+    $lines[$i]="$duration[$t]\t$lines[$i]";
+	#$lines[$_].=" $duration[$t]\n";
+	#print"$lines[$_]";
+	$t++;
 }
+print"@lines";
