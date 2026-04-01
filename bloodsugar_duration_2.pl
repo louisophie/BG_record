@@ -6,15 +6,15 @@ my@lines;
 open my $fh, '<', 'bloodsugar.md' or die "Cannot open bloodsugar.md: $!";
 my$t=0;
 foreach(reverse<$fh>){
+	next if /^$/ || /---/;     # skip empty lines and lines containing ---
 	#print;
-	push@lines,$_ unless /^$/;
+	push@lines,$_;
 	$t++ if /####/;
 	last if $t==2;
 }
 @lines=reverse@lines;
 #print foreach @lines;print"\n";
-#print"\n$#lines\n";
-
+#__END__
 my($date,$d,$d1);
 my$d2=0;
 my(@date,@week,@lines_of_duration,@time,@date_time,@date_time_dosage,@dosage,@time_dosage);
@@ -67,5 +67,9 @@ foreach my$i (@lines_of_duration){	#$i==line number of /`\{(\d\d:\d\d) (.+)\}`/ 
 	#print"$lines[$_]";
 	$t++;
 }
-print"@lines";
-print "\x1b[1A";
+foreach(@lines){
+	#chomp;
+	s/^(\d.) / $1/;
+	chomp if $_ eq $lines[-1];
+	print;
+}
