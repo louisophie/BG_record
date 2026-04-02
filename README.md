@@ -5,7 +5,7 @@
 - Eat and drink salt every urination, exercise,before-bed and morning-waking.
 - Blood sugar test stripes from finger-rotation in FreeStyle Optium Neo (main device), Contour plus (most accurate) and Accu-chek Guide(seldom used)
 - 4T single site < 8h effective coverage
-- Pre-bed insulin correction rule:
+- BG correction rule:
   - Final BG goal is 70-90 mg/dL.
   - Never dose for current BG — dose for **projected BG at insulin peak**
   - Formula: Projected BG = Current BG + (rising rate × time to insulin peak)
