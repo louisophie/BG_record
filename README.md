@@ -48,7 +48,7 @@
 - mg/dLᵐ/ₙ(2³⁰,1⁴⁰,0⁵⁰): The durations from previous insulin dosages; 2h30m for long-term insulin (Tresiba), 1h40m for intermediate-acting (I), and 50m for short-term (R/H/N).
 - Insulin injection-rotation site:
 
-|>|<|B|T|内|A|e.g.: <B|
+|>|<|B|T|内|A|<B|
 |---|---|---|---|---|---|---|
 |right|left|belly|buttock|inner-thigh|arm|left belly|
 - [food] and 〘event〙:
