@@ -60,7 +60,16 @@ foreach my $i (0 .. $#dosage) {
     }    # Underline if it contains T/I with < or >
     print "$time[$i] {$dosage[$i]} $duration[$i]";
 	print "\n" unless $i==$#dosage;
-    if ($i == $d1 - 1) {    # Print second heading when reaching the split point
-        print "#### $date[1]$week[1]\n";
+    if ($i == $d1 - 1) { 
+        if($i==$#dosage){
+           print"\n";
+           print "#### $date[1]$week[1]"
+    }else{
+        print "#### $date[1]$week[1]\n"
+    }
+
+ #       print "\n" if $i==$#dosage;
+   # Print second heading when reaching the split point
+ #       print "#### $date[1]$week[1]\n";
     }
 }
