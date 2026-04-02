@@ -52,6 +52,7 @@
 |---|---|---|---|---|---|---|
 |right|left|belly|buttock|inner-thigh|arm|left belly|
 - [food] and 〘event〙:
+
 |[food]||〘event〙||
 |---|---|--|--|
 |[cf.]|coffee powder|〘W₂〙|walk for 2h|
