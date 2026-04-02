@@ -36,11 +36,13 @@
 |mg/dL⁸|left middle-finger|mg/dL₈|left middle-finger on nail-side|
 |mg/dL⁹|left forefinger|mg/dL₉|left forefinger on nail-side|
 |mg/dL⁰|left thumb|mg/dL₀|left thumb on nail-side|
+
 - Insulin: †:regular human insulin. ‡:Insulatard. ⹋:Neutral Protamine Hagedorn.
 |R|H|N|I‡|T|
 |---|---|---|---|---|
 |Regular†|Humalog|Novorapid|NPH⹋|Tresiba|
 |        |       |         |    |       |
+
 - mg/dLᵐ/ₙ(2³⁰,1⁴⁰,0⁵⁰): The durations from previous insulin dosages; 2h30m for long-term insulin (Tresiba), 1h40m for intermediate-acting (I), and 50m for short-term (R/H/N).
 - Insulin injection-rotation site:
 |>|<|B|T|内|A|e.g.: <B|
@@ -54,6 +56,7 @@
 |[ml₃]|3 spoons of milk powder|〘睡〙|go-back sleep|
 |[ct.]|Carmién Tea|||
 |   [BC/BT]  |      bulletproof coffee/tea     |||
+
 - Examples:
   - 07:44 101mg/dL₈(5⁵⁴/0⁵⁰,3³⁶,0⁵⁰): BG 101mg/dL from left middle-finger on nail-side at 7:44 AM, and the durations from last insulin dosages are 5h54m and 50m for Tresiba, 3h36m for NPH, and 50m for R/H/N.
   - {1H3⁻N6⁺R5½T>B}: 1 unit humalog, little-less-than 3 units novorapid, little-more-than 6 units regular-human insulin, and 5.5 units tresiba at right belly in one shot.
