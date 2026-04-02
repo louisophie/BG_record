@@ -38,13 +38,13 @@
 |mg/dL⁹|left forefinger|mg/dL₉|left forefinger on nail-side|
 |mg/dL⁰|left thumb|mg/dL₀|left thumb on nail-side|
 
-- Insulin: †:regular human insulin. ‡:Insulatard. ⹋:Neutral Protamine Hagedorn.
+- Insulin:
 
 |R|H|N|I‡|T|
 |---|---|---|---|---|
 |Regular†|Humalog|Novorapid|NPH⹋|Tresiba|
-|        |       |         |    |       |
 
+ †:regular human insulin. ‡:Insulatard. ⹋:Neutral Protamine Hagedorn.
 - mg/dLᵐ/ₙ(2³⁰,1⁴⁰,0⁵⁰): The durations from previous insulin dosages; 2h30m for long-term insulin (Tresiba), 1h40m for intermediate-acting (I), and 50m for short-term (R/H/N).
 - Insulin injection-rotation site:
 
