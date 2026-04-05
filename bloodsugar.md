@@ -619,6 +619,15 @@
 1. 06:33 60mg/dL⁴(5¹⁶)〘睡〙
 2. 08:55 51mg/dL³(7³⁹)
     - `{08:58 4R7T>A}`[醬,egg₂]<!--feeling not comfortable after going back sleeping, might resulting from without insulin after 6:33-->
+3. 13:23 96mg/dL²(4²⁶)
+    - `{13:37 5⁺R>B}`[lunch:醬,肉,菜]
+4. 16:54 116mg/dL¹(7⁵⁵,,3¹⁶)
+    - `{17:03 5R7T<B}`[ml.奶茶],[dinner]
+5. 20:46 178mg/dL₁(3⁴³)
+    - `{20:49 3H5R>B}`[椰奶,tea]
+6. 23:04 110mg/dL₂(6⁰,,2¹⁴)
+    - `{23:13 1H3R>T}`
+    - `{00:23 5T<内}`
 
 ---
 
