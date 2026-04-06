@@ -647,12 +647,13 @@
     - `{18:47 2R7T>A}`<!--in the brink of violent imagination, and can't take 2 shots of R and T but combining them in the bus-->
 6. 21:04 129mg/dL₀(2²²)
     - `{21:11 4½R<B}`〘W½〙
+7. 22:49 84mg/dL₀(4³,,1³⁹)[醬+肉,8g,椰奶]
+8. 00:35 70mg/dL₉(5⁴⁸,,3²⁵)[12g]
+    - `{00:49 (4+4)T>T>B}`
+    - `{00:53 3½R<内}`
 
 ---
 
 
-  
-
- 
 
 
