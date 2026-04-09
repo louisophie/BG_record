@@ -10,6 +10,7 @@
 - Still having mental, urination and sleep issues, but getting ameliorated gradually.
 
 ## Treatment Guidelines
+- Bernstein, Richard K. *Dr. Bernstein's Diabetes Solution: The Complete Guide to Achieving Normal Blood Sugars* (Hardcover 4th ed.), Little, Brown & Company, 2011.
 - Bad diet results in metabolic dysregulation, and metabolic dysregulation results in mental problems.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
 - Eat and drink salt every urination, exercise,before-bed and morning-waking.
