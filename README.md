@@ -9,8 +9,8 @@
 - Turning to ketogenic diet and intermittent fasting after the year 2019-2020 and resulting in almost normal blood-sugar (5.3%-4.6%, but SD still unstable); mental state being improved, and no serious hypo and syncope at all.
 - Still having mental, urination and sleep issues, but getting ameliorated gradually.
 
-## Life Contexts
-- Treat my mental problem first, then diabetes second.
+## Treatment Guidelines
+- Bad diet results in metabolic dysregulation, and metabolic dysregulation results in mental problems.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
 - Eat and drink salt every urination, exercise,before-bed and morning-waking.
 - Blood sugar test stripes from finger-rotation in FreeStyle Optium Neo (main device), Contour plus (most accurate) and Accu-chek Guide(seldom used)
@@ -25,14 +25,14 @@
   - Falling trajectory → dose more conservatively
 - Pre-bed R (or H for serious hyper) essential for sleep quality and mental clarity — independent of BG control — likely via brain insulin pulsatility mechanism.
 - Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. When fasting, the first day would still require sufficient dosages.
-- 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility,
+- 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility.
 - Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately.
 
 ## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.
 
 ## Notation Decipherment
-- BG: blood-sugar
+- BG=blood-sugar, f.u.=frequent urination.
 - Finger-rotation for BG:
 
 |83mg/dLᵐ|   |83mg/dLₙ|   |
