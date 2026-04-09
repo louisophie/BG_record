@@ -9,7 +9,7 @@
 - Turning to ketogenic diet and intermittent fasting after the year 2019-2020 and resulting in almost normal blood-sugar (5.3%-4.6%, but SD still unstable); mental state being improved, and no serious hypo and syncope at all.
 - Still having mental, urination and sleep issues, but getting ameliorated gradually.
 
-## Life contexts
+## Life Contexts
 - Treat my mental problem first, then diabetes second.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
 - Eat and drink salt every urination, exercise,before-bed and morning-waking.
@@ -28,10 +28,10 @@
 - 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility,
 - Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately.
 
-## Photo-check protocol for eating-out and suspicious meals
+## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.
 
-## Notation decipherment
+## Notation Decipherment
 - BG: blood-sugar
 - Finger-rotation for BG:
 
@@ -88,7 +88,7 @@
     - Openclaw: for data and papers web-fetch on Pubmed.
     - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
 
-## Insulin duration counted
+## Insulin Duration counted
 ```bash
 #for insulin injection only
 bash bloodsugar_duration_termux.bash
