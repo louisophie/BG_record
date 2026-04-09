@@ -1,4 +1,4 @@
-*Last Updated: 2026-04-02*
+*Last Updated: 2026-04-09*
 ## Life contexts
 - Treat my mental problem first, then diabetes second.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
@@ -77,3 +77,13 @@
     - Zettlr.
     - Openclaw: for data and papers web-fetch on Pubmed.
     - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
+
+## Insulin duration counted
+```bash
+#for insulin injection only
+bash bloodsugar_duration_termux.bash
+```
+```bash
+#for insulin injection and details on the log
+bash bloodsugar_duration_termux_log.bash
+```
