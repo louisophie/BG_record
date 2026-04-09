@@ -7,7 +7,7 @@
 - Doing ADA's high-carb and low-fat diet, which taught by medical institutions, with ultra-short-term and long-term insulins for more than one-and-half decades.
 - Having serious hypo and syncope per 1-2 years and strong negative thoughts when 35 years old.
 - Turning to ketogenic diet and intermittent fasting after the year 2019-2020 and resulting in almost normal blood-sugar; mental state being improved, and no serious hypo and syncope at all.
-- Still having mental, urination and sleep issues, but getting improved gradually.
+- Still having mental, urination and sleep issues, but getting ameliorated gradually.
 
 ## Life contexts
 - Treat my mental problem first, then diabetes second.
