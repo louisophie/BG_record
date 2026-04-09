@@ -3,7 +3,7 @@
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
 - Having serious social impairment, response latency and poor concentration since 14 years old in third year of junior high.
-- Serious weight loss, polyuria, and not able to get up in the morning when 18 years old, and being diagnosed with T1D a year later; given Amaryl right away and switched to Novolog and Lantus several months after several months.
+- Serious weight loss, polyuria, and not able to get up in the morning when 18 years old, and being diagnosed with T1D a year later; given Amaryl right away and switched to Novolog and Lantus after several months.
 - Doing ADA's high-carb and low-fat diet, which taught by medical institutions, with ultra-short-term and long-term insulins for more than one-and-half decades.
 - Having serious hypo and syncope per 1-2 years and strong negative thoughts when 35 years old.
 - Turning to ketogenic diet and intermittent fasting after the year 2019-2020 and resulting in almost normal blood-sugar (5.3%-4.6%, but SD still unstable); mental state being improved, and no serious hypo and syncope at all.
