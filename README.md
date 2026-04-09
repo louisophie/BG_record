@@ -74,7 +74,7 @@
 
 - Examples:
   - 07:44 101mg/dL₈(5⁵⁴/0⁵⁰,3³⁶,0⁵⁰): BG 101mg/dL from left middle-finger on nail-side at 7:44 AM, and the durations from last insulin dosages are 5h54m and 50m for Tresiba, 3h36m for NPH, and 50m for R/H/N.
-  - {1H3⁻N6⁺R5½T>B}: 1 unit humalog, little-less-than 3 units novorapid, little-more-than 6 units regular-human insulin, and 5.5 units tresiba at right belly in one shot.
+  - `{3⁻N6⁺R>B}`: little-less-than 3 units novorapid and little-more-than 6 units regular-human insulin at right belly in one shot.
   - `{06:54 5R2½I<A}`[BC+egg₁+cf.]: 5 units of regular mixed with 2 and half units of NPH at left arm at 6:54 AM, then having bulletproof coffee, 1 egg and adding some coffee powder.
   - `{08:36 1H2R>B}`[10:04 egg₁,酸菜]: 1 unit of H and 2 of R combined in right belly at 8:36 AM, and having 1 egg and some Sauerkraut at 10:04.
 
