@@ -1,7 +1,7 @@
 *Last Updated: 2026-04-09*
 ## Subjective History
 - Male, born in November 1985.
-- Tall and slim since kid with high myopia; currently 189 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
+- Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
 - Having serious social impairment, response latency and poor concentration since 14 years old in third year of junior high.
 - Serious weight loss, polyuria, and not able to get up in the morning when 18 years old, and being diagnosed with T1D a year later; given Amaryl right away and switched to Novolog and Lantus several months after several months.
 - Doing ADA's high-carb and low-fat diet, which taught by medical institutions, with ultra-short-term and long-term insulins for more than one-and-half decades.
