@@ -78,6 +78,16 @@
   - `{06:54 5R2½I<A}`[BC+egg₁+cf.]: 5 units of regular mixed with 2 and half units of NPH at left arm at 6:54 AM, then having bulletproof coffee, 1 egg and adding some coffee powder.
   - `{08:36 1H2R>B}`[10:04 egg₁,酸菜]: 1 unit of H and 2 of R combined in right belly at 8:36 AM, and having 1 egg and some Sauerkraut at 10:04.
 
+- Practical personal ISF† estimate:
+
+|Condition|R|H/N|
+|---|---|---|
+|Fasted, clean|~35–42 mg/dL/u|~40–45 mg/dL/u|
+|Post-meal|~10–15 mg/dL/u|~12–18 mg/dL/u|
+|**HAAF active**|~50–60 mg/dL/u|~55–65 mg/dL/u|
+
+†:Insulin Sensitivity Factor
+
 ## The devices and softwares used
 1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
 2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my ***Dr. Bernstein's GlucograF DATA SHEET*** recording.
