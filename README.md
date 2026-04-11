@@ -1,4 +1,4 @@
-*Last Updated: 2026-04-09*
+*Last Updated: 2026-04-11*
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -78,7 +78,7 @@
   - `{06:54 5R2½I<A}`[BC+egg₁+cf.]: 5 units of regular mixed with 2 and half units of NPH at left arm at 6:54 AM, then having bulletproof coffee, 1 egg and adding some coffee powder.
   - `{08:36 1H2R>B}`[10:04 egg₁,酸菜]: 1 unit of H and 2 of R combined in right belly at 8:36 AM, and having 1 egg and some Sauerkraut at 10:04.
 
-- Practical personal ISF† estimate:
+- Personal practical ISF† estimate:
 
 |Condition|R|H/N|
 |---|---|---|
@@ -87,6 +87,14 @@
 |**HAAF active**|~50–60 mg/dL/u|~55–65 mg/dL/u|
 
 †:Insulin Sensitivity Factor
+
+- Personal calibration — fasting, minimal active insulin:
+
+|Glucose|Rise|
+|---|---|
+|10g|~30–33 mg/dL|
+|20g|~60–65 mg/dL|
+|30g|~90–98 mg/dL|
 
 ## The devices and softwares used
 1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
