@@ -705,7 +705,7 @@
 8. 00:30 121mg/dL⁷(4³/7¹¹,,)<!--18g is much; 10g is enough-->
     - `{00:34 (5+6+6)T<B>A>T}`
 
-#### 20260410Fri<!--fasting day2-->
+#### 20260410Fri<!--fasting day2, f.u. feeling-->
 1. 04:56 75mg/dL⁶(4²²)[5g]
 2. 06:59 68mg/dL⁵(6²⁵)
     - `{07:01 7T<内}`[4g+BC鹽]<!--too much, should be less after the 1st day of fasting-->
