@@ -32,7 +32,7 @@ _Last Updated: 2026-05-29_
 - 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility.
 - Avoid hypoglycemia, especially at night; correct blood sugar upon waking rather than dosing too much before bed.
 - Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately if needed.
-~~- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.~~
+- ~~- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.~~
 
 ## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.
