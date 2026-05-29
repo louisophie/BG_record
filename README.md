@@ -1,4 +1,4 @@
-*Last Updated: 2026-04-13*
+_Last Updated: 2026-05-29_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -10,10 +10,12 @@
 - Still having mental, urination and sleep issues, but getting ameliorated gradually.
 
 ## Treatment Guidelines
-- Bernstein, Richard K. *Dr. Bernstein's Diabetes Solution: The Complete Guide to Achieving Normal Blood Sugars* (Hardcover 4th ed.), Little, Brown & Company, 2011.
+- Bernstein, Richard K. _Dr. Bernstein's Diabetes Solution: The Complete Guide to Achieving Normal Blood Sugars_ (Hardcover 4th ed.), Little, Brown & Company, 2011.
 - Bad diet results in metabolic dysregulation,and metabolic dysregulation results in mental problems.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
-- Eat and drink salt every urination, exercise,before-bed and morning-waking.
+- Reduce phone and screen usage time, especially avoid using phone at night unless absolutely necessary.
+- Go to bed no later than 24:00; default sleep schedule is 21:30~04:00.
+- Enough Salt and electrolytes intake.
 - Blood sugar test stripes from finger-rotation in FreeStyle Optium Neo (main device), Contour plus (most accurate) and Accu-chek Guide(seldom used)
 - 4T single site < 8h effective coverage
 - Insulin timing and its qualities are far more crucial and decisive in mentality and f.u. preventing.
@@ -28,8 +30,9 @@
 - (not applied in fasting day) Pre-bed R (or H for serious hyper) essential for sleep quality and mental clarity — independent of BG control — likely via brain insulin pulsatility mechanism.
 - Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. When fasting, the first day would still require sufficient dosages and might be lower after then.
 - 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility.
-- Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately.
-- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.
+- Avoid hypoglycemia, especially at night; correct blood sugar upon waking rather than dosing too much before bed.
+- Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately if needed.
+~~- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.~~
 
 ## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.
@@ -71,7 +74,7 @@
 |[cf.]|coffee powder|〘W₂〙|walk for 2h|
 |[egg₃]|3 eggs|〘W₂〙¹|The day 1 after walking for 2H|
 |[ml₃]|3 spoons of milk powder|〘睡〙|go-back sleep|
-|[ct.]|Carmién Tea|||
+|[ct.]|Carmién Tea|[rc.]|riced cauliflower|
 |   [BC/BT]  |      bulletproof coffee/tea     |||
 
 - Examples:
