@@ -20,8 +20,8 @@
 - 19:39 144mg/dL(13⁵⁸, 3⁵⁸){6R<B, 7T>內}[杏仁茶]
 - 22:52 126mg/dL₃(3⁰⁶, 3⁰⁹){2+H>B}[杏仁茶]<!-- right middle-finger on nail-side -->
 - 01:00 43mg/dL₄(5¹⁴, 2⁰⁶)[糖],{7T<T}<!-- right ring-finger on nail-side -->
-
 #### 20260217
+
 - 06:52 79mg/dL₅(4⁴⁸, ){7T<T, 3+<B}[cf. ], [cf. ]<!-- right little-finger on nail-side -->
 - 12:35 40mg/dL₆, (5²², 5²⁰), [肉,糖,菜],{5R>A}<!-- left little-finger on nail-side -->
 - 15:53 133mg/dL₇, (8³⁹, 2¹⁵){4R>B, 7T<內}, [cf. 杏]<!-- left ring-finger on nail-side -->
@@ -1543,6 +1543,21 @@
 #### 20260613Sat
 1. 10:04 116mg/dL⁰
     - `{10:08 2⁺H>A}`[BC]
+2. 16:10 76mg/dL⁰[熱炒+肉]
+    - `{16:47 3½R½I>T}`[22:30 BC]
+3. 23:54 70mg/dL⁹
+4. 01:42 67mg/dL⁸
+
+#### 20260614Sun
+1. 07:39 52mg/dL⁶[BC₂]
+2. 16:08 152mg/dL⁴
+    - `{16:55 7½R<B}`[外食:熱炒（糖、澱粉)+菜+肉]
+3. 20:31 73mg/dL³
+    - `{22:04 15T>B}`
+
+#### 20260615Mon
+1. 06:28 170mg/dL²
+    - `{06:30 6½H<A}`
 
  --
 
