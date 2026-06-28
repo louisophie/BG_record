@@ -1672,8 +1672,27 @@
 #### 20260626Fri
 1. 06:02 112mg/dL₈
     - `{06:08 2½R<A}`[BC]
-2. 12:22 75mg/dL₇
+2. 12:22 75mg/dL₇[17:00 熱炒:高麗菜+肉+蒜]
+    - `{18:11 3R½I>T}`<!--Sleeping, might result from insulinntoo lateness-->
+    - `{21:32 15T>B}`
+3. 23:22 220mg/dL₆
+    - `{23:25 8H<B}`
 
---
+#### 20260627Sat
+1. 06:04 82mg/dL₅
+    - `{08:12 2⁻H>A}`[BC]<!--sleepy; use H to fix my metabolism for preventing from falling asleep and crashing down after a nap-->
+2. 12:36 99mg/dL₄
+    - `{14:34 7½H>B}`[泡麵:29g澱粉+肉+泡菜+fat]
+3. 17:12 191mg/dL₃
+    - `{17:14 7H<B}`[ml]
+    - `{19:46 17T<内}`[ml多]
+4. 22:51 152mg/dL₂
+   - `{22:53 4H<T}`
+  
+#### 20260628Sun
+1. 09:15 118mg/dL¹ 
+   - `{09:18 3⁺H>A}`[BC]
+
+----
 
 
