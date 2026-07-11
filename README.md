@@ -31,8 +31,9 @@ _Last Updated: 2026-05-29_
 - Multi-day gluconeogenesis carryover (all needed-units are guessing; the point is the trend): eating day needs ~20u, day 2 fasting ~12u, day 3 ~6u, days 4–8 ~4u, day 9+ ~2u. When fasting, the first day would still require sufficient dosages and might be lower after then.
 - 2h maximum gap between R injections in an eating evening for maintaining brain insulin pulsatility.
 - Avoid hypoglycemia, especially at night; correct blood sugar upon waking rather than dosing too much before bed.
-- Agitation/cannot focus/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately if needed.
+- Agitation/not able focusing/violent imagery = brain insulin pulsatility gap signal → inject necessary units of R/H/N immediately if needed.
 - ~~- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.~~
+- **Treatment for unrefreshing waking: inject H or N immediately upon waking in the morning, then wait for the dosage to take effect and try to tell the mental difference.**
 
 ## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.
@@ -75,7 +76,7 @@ _Last Updated: 2026-05-29_
 |[egg₃]|3 eggs|〘W₂〙¹|The day 1 after walking for 2H|
 |[ml₃]|3 spoons of milk powder|〘睡〙|go-back sleep|
 |[ct.]|Carmién Tea|[rc.]|riced cauliflower|
-|   [BC/BT]  |      bulletproof coffee/tea     |||
+|   [BC/BT]  |      bulletproof coffee/tea     |[ps.]|pumpkin seed|
 
 - Examples:
   - 07:44 101mg/dL₈(5⁵⁴/0⁵⁰,3³⁶,0⁵⁰): BG 101mg/dL from left middle-finger on nail-side at 7:44 AM, and the durations from last insulin dosages are 5h54m and 50m for Tresiba, 3h36m for NPH, and 50m for R/H/N.
