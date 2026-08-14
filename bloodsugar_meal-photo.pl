@@ -6,7 +6,7 @@ use File::Basename qw(basename);
 
 my$file="bloodsugar.md";
 #my$phone_img_folder="/home/louisophie/Downloads/github/BG_record/image.bak";
-my$phone_img_folder="/storage/emulated/0/DCIM/Camera";
+my$phone_img_folder="/data/data/com.termux/files/home/storage/shared/DCIM/Camera";
 #<magic begin
 @_ = glob("${phone_img_folder}/*.jpg");
 $_ = (sort { -M $a <=> -M $b } @_)[0];
