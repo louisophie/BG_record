@@ -1,4 +1,4 @@
-_Last Updated: 2026-07-11_
+_Last Updated: 2026-08-15_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -104,14 +104,13 @@ _Last Updated: 2026-07-11_
 
 ## The devices and softwares used
 1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
-2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my ***Dr. Bernstein's GlucograF DATA SHEET*** recording.
+2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my **_Dr. Bernstein's GlucograF DATA SHEET_** recording.
 3. Software used on my phone:
-    - ***Markor***, which is omnipotent in my BG recoding.
-    - ***Multiling O Keyboard***, which provides highy personalized diy keyboard in my notation-writing.
+    - **_Markor_**, which is omnipotent in my BG recoding.
+    - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
 4. Softwares used on ubuntu:
     - Zettlr.
-    - Openclaw: for data and papers web-fetch on Pubmed.
-    - Web project of Claude and Grok: for my BG-record analysis and medical assistant.
+    - Opencode/OMP: data analysis
 
 ## Insulin Duration counted
 ```bash
@@ -121,4 +120,10 @@ bash bloodsugar_duration_termux.bash
 ```bash
 #for insulin injection and details on the log
 bash bloodsugar_duration_termux_log.bash
+```
+
+## Photo of Meal inserting
+```bash
+#the newest image in the phone to be processed and copied to ./image, then appending an image-insertion code to the bloodsugar.md
+perl bloodsugar_meal-photo.pl
 ```
