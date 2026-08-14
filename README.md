@@ -108,9 +108,10 @@ _Last Updated: 2026-08-15_
 3. Software used on my phone:
     - **_Markor_**, which is omnipotent in my BG recoding.
     - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
-4. Softwares used on ubuntu:
+4. Softwares used on antiX of debian:
     - Zettlr.
     - Opencode/OMP: data analysis
+    - Cheap/free models.
 
 ## Insulin Duration counted
 ```bash
