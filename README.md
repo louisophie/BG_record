@@ -11,7 +11,7 @@ _Last Updated: 2026-07-11_
 
 ## Treatment Guidelines
 - Bernstein, Richard K. _Dr. Bernstein's Diabetes Solution: The Complete Guide to Achieving Normal Blood Sugars_ (Hardcover 4th ed.), Little, Brown & Company, 2011.
-- Bad diet results in metabolic dysregulation,and metabolic dysregulation results in mental problems.
+- Bad diet results in metabolic dysregulation, and metabolic dysregulation results in mental problems.
 - No/low carb, ketogenic diet (eat fat and electrolytes every drink and meal) and no carb&protein in the evening (at least more than 6 hours before bed) when not fasting.
 - Reduce phone and screen usage time, especially avoid using phone at night unless absolutely necessary.
 - Go to bed no later than 24:00; default sleep schedule is 21:30~04:00.
