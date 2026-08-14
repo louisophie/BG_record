@@ -105,7 +105,7 @@ _Last Updated: 2026-08-15_
 ## The devices and softwares used
 1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
 2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my **_Dr. Bernstein's GlucograF DATA SHEET_** recording.
-3. Software used on my phone:
+3. Softwares used on my phone:
     - **_Markor_**, which is omnipotent in my BG recoding.
     - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
     - **_Termux_**, for insulin-duration counting and md-file modifying.
