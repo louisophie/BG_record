@@ -111,7 +111,7 @@ _Last Updated: 2026-08-15_
     - **_Termux_**, for insulin-duration counting and md-file modifying.
 4. Softwares used on antiX of debian:
     - Zettlr.
-    - Opencode/OMP: data analysis
+    - Opencode/OMP for data analysis
     - Cheap/free models.
 
 ## Insulin Duration counted
