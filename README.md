@@ -108,6 +108,7 @@ _Last Updated: 2026-08-15_
 3. Software used on my phone:
     - **_Markor_**, which is omnipotent in my BG recoding.
     - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
+    - **_Termux_**, for insulin-duration counting and md-file modifying.
 4. Softwares used on antiX of debian:
     - Zettlr.
     - Opencode/OMP: data analysis
