@@ -2236,9 +2236,19 @@
 #### 20260816Sun
 1. 10:27 146mg/dL⁰
     - `{10:30 6H<A}`<!--Feel miserable, condition very bad-->
-    - `{14:27 6R<B}`[豬]〘睡〙
+    - `{14:27 6R<B}`[豬]〘睡->16:30〙<!--Feel much better with 6R-->
 2. 18:49 38mg/dL⁰[牛]
+3. 23:15 162mg/dL⁹<!--Have serious violent and instable mentality-->
+   - `{23:19 (7+7)T<内>B}`
+    - `{23:23 4½H>A}`
+4. 00:31 155mg/dL⁸
+   - `{00:36 5I<内}`
 
+#### 20260817Mon
+1. 05:48 121mg/dL⁷
+    - `{05:56 2½H<A}`<!--feel way better than yesterday; would it result from 5I?-->〘睡07:00->09:20〙
+   - `{09:24 3H<B}`<!--藥效太快睡不飽-->
+2. 11:53 43mg/dL⁶
  
 ---
 
