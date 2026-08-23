@@ -2313,7 +2313,10 @@
     - `{05:15 2½R<A}`〘睡->8:20〙<!--feel fine, but not good enough-->[鹽BC₂]
 2. 12:20 144mg/dL⁶
    - `{12:21 5R<B}`
-3. 17:28 85mg/dL⁷ ![IMG_20260823_183738.jpg](./image/IMG_20260823_183738.jpg)[豬三層+eggyolk+butter]
+3. 17:28 85mg/dL⁷
+    - `{18:42 3R>A}`![IMG_20260823_183738.jpg](./image/IMG_20260823_183738.jpg)[豬三層+eggyolk+butter]
+4. 22:09 58mg/dL⁸[leftover(少)]
+
  
 ---
 
