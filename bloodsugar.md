@@ -2337,8 +2337,12 @@
  
 #### 20260825Tue
 1. 06:09 76mg/dL⁵〘睡->09:15〙<!--still back-sleep, but no R/H/I-->
-2. 09:19 93mg/dL⁴<!--feel ok without R/H injection-->
-
+2. 09:19 93mg/dL⁴<!--feel ok without R/H injection-->[鹽BC]
+3. 12:53 163mg/dL³
+    - `{12:55 2⁺H5R<A}`[BT]
+4. 17:33 80mg/dL²
+   - `{18:37 3R½I<B}`
+ 
 ---
 
 
