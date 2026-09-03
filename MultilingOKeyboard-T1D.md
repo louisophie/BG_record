@@ -1,4 +1,4 @@
-{"title":"T1D",
+{"title":"T1D_2",
 "onScreen":{"main":[
 "[4D::][4D::][4D:[HOME]][4D:[END]][4D:[LEFT]][4D:[UP]][4D:[RIGHT]]",
 "[4D:[HOME]][4D:/[MC:<B:B][MC: : ][MC:>B:B][MC: : ][MC:<A:A][MC:>A:A][MC:>T:ᴛ][MC:<T:ᴛ]][4D:1N¹H₁[MC:a:ª][MC:b:ᵇ]dc][4D:2R²½₂[MC:e:ᵉ][MC:f:ᶠ][MC:h:ₕ][MC:g:ɢ]][4D:3I³T₃[MC:i:ⁱ][MC:j:ʲ][MC:l:ₗ][MC:k:ₖ]][4D:[DOWN]][4D:  [COPY] [PASTE]]",
