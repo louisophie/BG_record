@@ -12,7 +12,7 @@
 <keyboard name="T1D" script="latin">
   <row><!-- row1 -->
     <key c="home" n=":" />
-    <key c="/" ne="A:'&gt;A'" e="B:'&gt;B'" se="ᴛ:'&lt;T'" sw="ᴛ:'&gt;T'" w="B:'&lt;B'" nw="A:'&lt;A'" />
+    <key c="/" ne="A:'&gt;A'" e="B:'&gt;B'" se="ᴛ:'&gt;T'" sw="ᴛ:'&lt;T'" w="B:'&lt;B'" nw="A:'&lt;A'" />
     <key c="1" n="¹" ne="ᵇ:b" e="N" se="d" s="₁" sw="c" w="H" nw="ª:a" />
     <key c="2" n="²" ne="ᶠ:f" e="½" se="ₕ:h" s="₂" sw="ɢ:g" w="R" nw="ᵉ:e" />
     <key c="3" n="³" ne="ʲ:j" e="T" se="ₗ:l" s="₃" sw="ₖ:k" w="I" nw="ⁱ:i" />
@@ -30,9 +30,9 @@
   </row>
   <row><!-- row3 -->
     <key c="shift" role="action" ne="loc capslock" />
-    <key c="0" n="⁰" e="selectAll" s="₀" />
+    <key c="0" n="⁰" e="selectAll" s="₀" w="中:change_method_next"/>
     <key c="7" n="⁷" ne="ˣ:x" e="end" se="z" s="₇" sw="y:y" w="home" nw="ʷ:w" />
-    <key c="8" n="⁸" e="🕛:'{{HH:mm}}'" s="₈" w="🈷️:'#### {{yyyyMMddE}}',enter" />
+    <key c="8" n="⁸" e="🕛:'{{HH:mm}} '" s="₈" w="🈷️:'#### {{yyyyMMddE}}',enter" />
     <key c="9" n="⁹" e="+" se="." s="₉" sw="," />
     <key c="backspace" role="action" />
     <key c="delete" role="action" n="redo" s="undo" />
