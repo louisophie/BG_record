@@ -12,7 +12,7 @@ my$phone_img_folder="/data/data/com.termux/files/home/storage/shared/DCIM/Camera
 $_ = (sort { -M $a <=> -M $b } @_)[0];
 my$img_name=basename($_) ;
 #system("jpegoptim", "-v", "-d", "./image/", "--size=100k", "--strip-all", "-o", "$_") == 0 or die "jpegoptim failed: $?";
-system("magick", "$_", "-resize", "40%", "-strip", "-quality", "80", "-monitor", "./image/$img_name") == 0 or die "magick failed: $?";
+system("magick", "$_", "-resize", "20%", "-strip", "-quality", "80", "-monitor", "./image/$img_name") == 0 or die "magick failed: $?";
 print "proceed? [Enter=yes, Ctrl-C=abort] ";<STDIN>;
 #>magic end
 
