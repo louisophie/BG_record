@@ -51,3 +51,26 @@ Three mechanisms, all active today:
 3. **Higher peripheral sensitivity:** post-hypo muscle/adipose take up glucose more readily for ~24h (insulin + contraction-independent pathways primed). Basal + even tiny bolus hits harder.
 
 Two-phase trap: first 1–2h looks *resistant* (adrenaline + liver dump → rebound 40→121), tempting a big correction — then phase 2 (2–24h) turns *sensitive* and that correction lands as the next hypo. Hence: let the rebound happen, correct small and awake, halve all fasting basal.
+
+## 8. Hypo → Rebound Hyper (Somogyi-like) — 22:53 152 case
+
+*Same day chain: 17:07 44 → 18:44 75 → 18:52 5I → 22:53 152 (+77/4h)*
+
+### Why the overshoot — 6 steps
+
+1. **18:44 75, fasting, post-44.** HAAF + empty glycogen — liver has almost nothing stored.
+2. **18:52 5I.** NPH drives glucose down and suppresses the already-feeble liver output.
+3. **~19:30–20:30 trough <70.** Normally epi/glucagon rescue here — but **HAAF blunted that surge**, so the dip runs deeper/longer than a healthy response.
+4. **~21:00+ counterregulation finally fires hard.** Having failed early, the body overcompensates: glucagon + epinephrine + cortisol + GH surge together → massive hepatic glucose release.
+5. **Dinner protein (beef/cheese) lands on top.** Slow gluconeogenesis adds +10–20 in the same window.
+6. **Liver dump + protein + sluggish recovery = overshoot to 152.**
+
+### Why it doesn't land at ~85
+
+- Healthy response is *proportional*; HAAF turns it **all-or-nothing** once the threshold finally trips.
+- Fading NPH (23:00 ≈ 4h in, compressed 4–7h) can no longer contain the rebound.
+- Protein rise has a longer tail the weak basal no longer matches.
+
+### Practical takeaway
+
+The hyper is **aftermath, not a cause to dose hard**. Part of the 152 is still *incoming protein + rebound momentum*, so a full bolus (23:00 3H1½R + 14I) can stack into a second drop. Read the number as "what the body did," wait for the swing to resolve, correct small and awake. Night-checked 02:30/04:00.

@@ -28,13 +28,12 @@ am start -a android.intent.action.SET_ALARM \
 ```bash
 #!/bin/bash
 # hypo_2130_0917_fix.sh — TEMPLATE
+# Uses PRE-GENERATED MP3 (no network, no live TTS). Voice = edge-tts zh-TW-HsiaoChenNeural.
 sleep 3375   # = target_epoch - now_epoch; compute: $(date -d "21:30 today" +%s) - $(date +%s)
 termux-wake-lock 2>&1
 for i in 1 2 3; do
   termux-vibrate -d 1000 2>&1
   termux-media-player play /storage/emulated/0/Documents/github/BG_record/audio/bg_warn5.mp3 2>&1
-  echo "九點半了，量血糖。五個NPH正在高峰，低血糖風險最高。低於九十馬上吃葡萄糖粉，不要睡著。" \
-    | termux-tts-speak -e com.google.android.tts -l cmn -n TW -s ALARM 2>&1
   sleep 60
 done
 ```
@@ -53,29 +52,38 @@ Kill a stuck loop:
 kill <bash_pid> <sleep_pid>
 ```
 
-## 4. TTS cheat-sheet (Taiwan Mandarin, speaker output)
+## 4. TTS: use edge-tts (Taiwan neural voice) — NOT Google TTS
 
+**Default voice: `zh-TW-HsiaoChenNeural`** (Microsoft Taiwan female, neural, near-human). Verified 2026-09-18 — far better than Google's TTS fallback (which gave a China accent).
+
+**Voices available (edge-tts):**
+| Voice | Gender |
+|---|---|
+| `zh-TW-HsiaoChenNeural` | Female (DEFAULT) |
+| `zh-TW-HsiaoYuNeural` | Female |
+| `zh-TW-YunJheNeural` | Male |
+
+**Generate an MP3 (needs network ONLY at generation time):**
 ```bash
-# One-liner test / manual warning
-echo "請量血糖" | termux-tts-speak -e com.google.android.tts -l cmn -n TW -s ALARM
-
-# Generic Mandarin fallback (no TW voice pack)
-echo "TEXT" | termux-tts-speak -l zh -n TW -s ALARM
+edge-tts --voice zh-TW-HsiaoChenNeural --text "請量血糖" --write-media audio/bg_warn1.mp3
 ```
 
-- `-s ALARM` routes to alarm stream (heard even in silent-ish modes).
-- Engine must be explicit: `-e com.google.android.tts`, lang `cmn`, region `TW`.
+**Regenerate ALL standard warnings:** run `/data/data/com.termux/files/usr/tmp/opencode/gen_bg_warnings.sh`.
 
-## 5. Ready-made warning lines (copy/paste)
+**Best practice:** pre-generate warning MP3s ahead of time (as done), so alarm scripts only `termux-media-player play` the file — **no network, no live TTS, no termux-tts-speak** needed at alarm time.
 
-| Situation | Chinese (TW) line |
-|---|---|
-| Bed-peak (16I+1R) | 三點半了，起來量血糖。你打了十六個NPH加一個R，現在是胰島素高峰，小心低血糖。開燈量血糖，低於九十馬上吃葡萄糖粉，不要回去睡。 |
-| NPH window, must eat first | 一點半了，先量血糖再打NPH。一定要高於九十而且有吃東西才能打，空腹不可打。先吃肉或起司，葡萄糖粉放旁邊。 |
-| Hypo-watch peak | 八/九點半了，(起來)量血糖。五個NPH正在高峰，低血糖風險最高。低於九十馬上吃葡萄糖粉，坐著量。 |
-| Plain prompt | 請量血糖。 |
+> Fallback if edge-tts unavailable: `termux-tts-speak -e com.google.android.tts -l zh-TW -s ALARM` (Google, may be China accent).
 
-## 6. Audio files (`audio/`)
+## 5. Ready-made warning lines (these are pre-generated in `audio/`; for custom text, re-run edge-tts)
+
+| Situation | Chinese (TW) line | File |
+|---|---|---|
+| Plain prompt | 請量血糖。 | bg_warn1 |
+| Hypo-watch peak (default) | 量血糖，胰島素高峰到了，低血糖風險最高。低於九十馬上吃葡萄糖粉，開燈坐著量。 | bg_warn5 |
+| NPH window, must eat first | 下午兩點半，先量血糖再打NPH，空腹不可打。 | nph_1430 |
+| Wake check | 六點半，量血糖，記錄晨起狀態。 | bg_0630 |
+
+## 6. Audio files (`audio/` — ALL now edge-tts HsiaoChenNeural)
 
 - `bg_warn1–5.mp3` — BG check warnings (warn5 = default for hypo-watch)
 - `bg_0630/1400/1500.mp3` — time-based BG reminders

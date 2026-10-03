@@ -5,3 +5,6 @@ todo.txt
 tmp*
 *tmp
 test*
+alarm*.sh
+alarm*.log
+*bak

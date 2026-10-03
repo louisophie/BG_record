@@ -10,6 +10,15 @@ use JSON::PP qw(decode_json);
 $|=1;
 our $in_code=0; # before loop, not inside sub
 our $in_diff=0; # unified-diff block state for TUI-like colors
+our $diff_file=''; # filename of current diff (from Index line)
+
+# --- diff filepath -> just the basename, shortened ---
+sub shortpath {
+  my($p)=@_;
+  $p =~ s{.*/github/BG_record/}{} or $p =~ s{.*/}{};
+  return $p;
+}
+
 sub md2ansi {
   my($s)=@_;
   $s =~ s/\e\[\?[0-9;]*[uUlh]//g;
@@ -18,17 +27,20 @@ sub md2ansi {
   my $nl = ($s =~ s/(\r?\n)$//) ? $1 : '';
   # --- TUI-like headers ---
   if($s =~ /^Thought\s*[·.]\s*.*$/) { return colored($s.$nl,'yellow'); }
-  if($s =~ /^\s*(←|<-)\s*Edit\s+(.*?)\s*$/) { $in_diff=1; return colored("← Edit $2".$nl,'bold bright_white'); }
-  if($s =~ /^Index:\s*/) { $in_diff=1; return colored($s.$nl,'bright_black'); }
-  if($s =~ /^=+$/) { return colored($s.$nl,'bright_black'); }
-  if($s =~ /^---\s/) { $in_diff=1; return colored($s.$nl,'bright_black'); }
-  if($s =~ /^\+\+\+\s/) { $in_diff=1; return colored($s.$nl,'bright_black'); }
-  if($s =~ /^@@\s.*@@/) { $in_diff=1; return colored($s.$nl,'cyan'); }
+  if($s =~ /^\s*(←|<-)\s*Edit\s+(.*?)\s*$/) { $in_diff=1; $diff_file=$2; return colored("← Edit ".shortpath($2).$nl,'bold bright_white'); }
+  # --- parse unified-diff metadata (suppress the noise) ---
+  if($s =~ /^Index:\s+(.+)$/) { $in_diff=1; $diff_file=$1; return ""; }          # suppress, capture file
+  if($s =~ /^=+$/) { return ""; }                                                # suppress divider
+  if($s =~ /^---\s/) { return ""; }                                              # suppress
+  if($s =~ /^\+\+\+\s/) { return ""; }                                           # suppress
+  if($s =~ /^@@\s.*@@/) { $in_diff=1; return colored("┌ ".$s.$nl,'bright_black'); }  # keep hunk marker, dim
   # --- inside diff block ---
   if($in_diff) {
     # prose line ends diff -> fall through to markdown
     unless($s =~ /^[ \@\+\-]/ || $s =~ /^\s*\d+\./ || $s =~ /^\s*[-+]\s*`/ || $s eq '') {
       $in_diff=0;
+      my $lab = $diff_file ? " ─ ".shortpath($diff_file) : "";
+      return colored("└──".$lab.$nl,'bright_black');
     }
   }
   if($in_diff) {
