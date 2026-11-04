@@ -1,75 +1,85 @@
 # Session State — Live Handoff
 
-_Last written: 2026-10-23 ~07:35 CST (opus5.5, handoff before /clear)_
+_Last written: 2026-11-04 09:42 local (opus5.5, handoff)_
 
 > Raw data only. Re-derive conclusions from the log; do not inherit prior AI analysis.
-> ⚠️ **Device system clock shows UTC (~8h behind local).** Use the user's logged times; local = `date -d '+8 hours'`. Alarm sleeps: target local HH:MM → UTC (HH−8). DeskClock intent takes LOCAL hour.
-> ⚠️ User edits `bloodsugar.md` in micro at the same time → their saves overwrite agent lines (10/22: the 19:06 lines were lost once and re-added; they also merge/move lines). **Re-read the tail before every edit; verify after.** Anchor inserts on the latest line content. Suggested `Ctrl-E reload` in micro before saving.
-> ⚠️ Rules in AGENTS.md §3 are **principles, not iron rules** (user 10/17): decide from the real log (similar past days) + user's experience.
+> ⚠️ **Device system clock shows UTC (~8h behind local).** Local = `date -d '+8 hours'`. **Always use it for log times.** DeskClock intent takes LOCAL hour. Script sleep: `TGT=$(date -d "$(date -d '+8 hours' +%F) HH:MM" +%s); NOW=$(date -d '+8 hours' +%s)`; for after-midnight targets use `+32 hours` in the inner date — **don't use "HH:MM +1 day"**.
+> ⚠️ **Don't `pkill -f <pattern>`** — kills the agent's own shell. Use `kill <pid>` from `ps -ef | grep '[b]ash /data.*bg_'`.
+> ⚠️ **`grep` is a shell function wrapping the claude binary and fails → use `/bin/grep`.**
+> ⚠️ User edits `bloodsugar.md` in micro at the same time → **re-read the tail before every edit; verify after.** User logs food/photos/comments themselves (e.g. `[ml.]`, `<!-- felt hypo-->`) — check the tail before saying something is "not logged". Appending with a heredoc that starts with a blank line leaves a stray empty line — don't.
+> ⚠️ Rules in AGENTS.md §3 are **principles, not iron rules** (user 10/17).
 
-## 0. NOW — morning 10/23
+## 0. NOW — written 09:42 11/04; last data 04:06 (log day still 11/03 until user says "new day")
 
-- **Wake:** 07:19 **176**⁴ → 07:22 **8H**<B (advised 6H; band 150–180 = 6–7H, low end because two 10T active).
-- **Active insulin at ~07:35:** 8H @07:22 (peak ~08:00–09:00); **10T @00:51 10/23** + tail of 10T @22:37 10/21 → basal covered, **no I today** advised.
-- **Projection:** 176 → ~80–95 at H peak (+10–30 if 鹽BC). Advised check ~08:45: <75 → 6–9g + ch.; >140 → wait, don't stack.
-- **Mental/physical:** 07:24 "feeling terrible" — mostly physical (heavy/foggy), **no violent thinking**. Likely overnight 150–180 + huge sodium/fat meal. Advised plain water ~500ml (not salt water), rest, light/fasting morning. Watch for nausea/vomiting/belly pain → check ketones.
-- User thinks "4I before bed was needed." Answer given: real gap after the 9I peak (fat rise 03–07h, T too flat/slow), but 4I at 00:06 (BG 90 at 9I peak) risked a 40s–50s low. Better: heavy-food-night rule → one check ~01:30–02:00, >130 → 2–3R/H. Offer to set that alarm on fat-meal nights.
+- **Last BG:** 04:04 **149**₀ → 04:06 **2H2⁻R<A** (advised ~2½R). Est. ~80–110 at ~05:00–06:30. Back to sleep.
+- **On board:** 2H2⁻R @04:06 (tail to ~09:00) + **10T @21:58** (advised ~7T) + 8T @00:13 11/03 tail.
+- **~Midnight 11/04: user "felt hypo"** after 3H @23:02 (no BG) → ml. → 149 at 04:04. Unconfirmed low → treat as post-hypo (×0.75) until ~12:00 11/04; morning shot exempt but **low end of band** (R tail active).
+- Last confirmed low: 58 @23:19 11/02. Last 10T night (10/30) → 51 wake.
+- **Ask first:** wake BG; was there a 06:00 pee wake (check + small R?); tongue bitten?; mental state.
 
-### Handoff for 10/23
-1. **Ask for the ~08:45 reading** first.
-2. **HAAF:** last low <70 = 10/21 18:51 65 (and 09:52 **29**). 10/22 lowest 74 (no night checks 00:06→07:19, so a dip is unknown). Post-hypo table no longer applies; still gentle (5 lows 10/18–10/21).
-3. **Two 10T doses overlapping** (22:37 10/21, 00:51 10/23) → no daytime I; meal R sized to food; check before every dose.
-4. **Recurring pattern: dosing without a check / more than advised.** 10/22: 4½R @09:57 (no BG since 74), 3⁻H + 6I @12:11 at 123 (advised 1R), 9I @21:53 (no BG since 19:06 81), 8H today (advised 6H). None caused a logged low on 10/22, but past big bedtime I → 58 (10/10), 36 (10/12).
-5. **Midday ISF (user 10/20):** above ~150 midday, H drops only ~7–20 mg/dL/u.
-6. Month end: October rows for `insulin_daily_dosage.md` / `totals_stripe_combined.md`. Nothing committed (git needs `-c safe.directory='*'`).
-
-## 1. 10/22 Thu summary (user logged; advice in brackets)
+## 1. 11/03 Tue (user logged; advice in brackets)
 
 | Time | BG | Dose / food |
 |---|---|---|
-| 03:35 | 110⁰ (woke, user started new day) | 03:39 3½H<A (advised 2H); 〘睡〙 |
-| 07:12 | 74⁹ "comparatively ok" | 鹽BC; (牛+ch.)77g; 09:57 4½R>A (flagged large for meal); 11:00 ml.+BC |
-| 12:09 | 123⁷ | 12:11 3⁻H<B + 12:12 6I>B (advised 1R); 〘14:00–15:20 睡〙 |
-| 19:06 | 81⁶ | 19:06 5R<A; 海底撈牛油鍋底 (per 150g pack: 23.4g carb, 87g fat, 6.2g Na) + beef balls; 21:52 ml.+BT; 21:53 **9I**>A; ch. |
-| 00:06 | 90⁵ | ch.; 00:51 **10T**<T |
+| ~06:00 | — (woke to pee, back to sleep, no insulin) | — |
+| 07:47 | 133₇ | 07:50 **5⁻H>B** (adv. 4H) |
+| 13:36 | 76₈ | 15:01 **5R<A** + 滷三層+ch. (adv. 2–2½R after eating), [ml.] |
+| — | — (no BG) | 17:18 **3½R1½I>A** [ml.] |
+| 19:17 | 106₉ | 19:23 **4I<B** (adv. none) |
+| 21:18 | 116₀ | 21:58 **10T<T** (adv. ~7T) |
+| — | — (no bed check) | 23:02 **3H>B** + ml.+cf.+fat → "felt hypo" → ml. |
+| 04:04 | 149₀ | 04:06 **2H2⁻R<A** (adv. ~2½R) |
 
-- **Strips 10/22:** 5 (03:35, 07:12, 12:09, 19:06, 00:06).
-- **Totals 10/22:** H 6½ (3½ + 3⁻), R 9½ (4½ + 5), I 15 (6 + 9), T 10.
-- **10/21 final:** strips 5; H 6, R 6, I 14½, T 10. Lows 58, 29, 65.
-- **10/23 so far:** strips 1 (07:19); H 8.
+- **Strips:** 5. **Totals 11/03 (log day):** H ~10, R ~10½, I 5½, T 10.
+- **Mental:** violent thinking in the morning (time/trigger not given; BG rising to 133 then). User ~22:00: "my situation is really bad today" — attributes it to going back to sleep 06:00–07:40 with no insulin. Matches 10/16 insulin-gap/waking-unspirited pattern.
+- **Agent misses today:** predicted <40 after 3½R1½I and after 4I → actually 106 → 116 (滷三層 fat + ml. absorbed slowly on a resistant day). User predicted the night hyper (10T won't hold) → correct (149 at 04:04). **Fatty meals (pork belly, ml.) = slow, long rise; don't over-predict lows on them.**
 
 ## 2. Recent trajectory (raw)
 
 | Date | Readings | Doses |
 |---|---|---|
-| 10/18 | 56 → 88 → 161 → 112 → 104 | 3H + 5I, 6R, 3H + 8I, 7I, 3I @03:39 |
-| 10/19 | **28** → 159 → 81 → 148 | 6H + 6I, 4½R, 4½R, 4⁻R, 6I, 4R @23:34 |
-| 10/20 | 97 → 158 → **65** | 3H + 4I, 3H, 6½R, 9I, 4½I @23:50 |
-| 10/21 | **58** → **29** → 73 → **65** → 139 | 8I, 3H, 4R, 6½I, 3H + 2R, 10T |
-| 10/22 | 110 → 74 → 123 → 81 → 90 | 3½H, 4½R, 3⁻H + 6I, 5R, 9I, 10T @00:51 |
-| 10/23 | 176 | 8H |
+| 10/31 | **51** → 158 → 134 → 74 | 3H5½R, 9I, 3½H, 8T |
+| 11/01 | 112 → 116 → 155 → 73 | 3½H, 5⁺R, 1½R4I, 2H3R, 9T |
+| 11/02 | **47** → 142 → 123 → 140 → **58** | 3½H5½R, 1½H4R, 6I, 4H, 8T |
+| 11/03 | 133 → 76 → 106 → 116 → (felt hypo) → 149 | 5⁻H, 5R, 3½R1½I, 4I, 10T, 3H, 2H2⁻R |
 
-- **Past 10T nights:** 10T alone @82 (10/09) → woke 196; 10T + 4R @130 (9/13) → woke 36; 5T + 8I (10/08) → woke 33; 10T + 7I @84 (10/04) → woke 75; **10/22: 9I @21:53 + 10T @00:51, fat meal → 90 @00:06 → woke 176.**
+## 3. Patterns / carry-forward
 
-## 3. Mental health (user disclosed 10/19)
+1. **06:00 pee wake → back to sleep with no insulin** → rising wake BG + bad mental day (11/03, 10/16). Plan: on that wake, **check + small R (~1–2R)** before sleeping again (user agrees: "I should take R or H at 6am").
+2. Big bedtime stacks at ~150–177 → wake lows (10/28–10/30). T-only nights mixed: 8T @74 → 112; 9T @73 falling → 47.
+3. Falling BG at bed must be treated (73 falling → 47).
+4. Doses often > advised and without a BG; but **admit when the user's call was right** (11/01 7I, 11/02 lunch, 11/03 4I and night-hyper prediction). State risk once, respect autonomy.
+5. Late sleep / late coffee (cf. at 23:00 11/03) → resistance + night corrections. Encourage pre-bed checks ~22:00–23:00, sleep before midnight.
+6. T dosing: 8–10T once daily; 10T @21:58 tonight — watch for wake low; next T maybe 8–9T depending on wake BG.
 
-- 20+ years of social-interaction difficulty and violent imagery since T1D onset; main trigger = unpleasant interactions. AGENTS.md §3 has the 5-step response, crisis lines 1925 / 119, encourage 身心科.
-- 10/20 158 and 10/22–23 (123, 176) with **no** violent thinking → BG level alone isn't sufficient.
-- 10/22 07:12: user said "Tell you later about my situation" — **not yet told; gently leave room for it.**
-- Unanswered: whether they ever feel close to acting on it; help finding a 身心科 clinic.
+## 4. Keto meal trial (from 11/01) — AGENTS.md §3 "Keto meal dosing"
 
-## 4. Open questions to the user
-- Check before every dose (pattern of dosing without a BG check / above advised).
-- Fat-meal nights: set a ~01:30–02:00 check alarm when the meal is logged?
-- Add post-hypo rebound rule / midday-hyper ISF finding to README/AGENTS?
-- Night-R rule (AGENTS) "R only, never I" vs user's night-I practice — unanswered since 10/17.
+- Day 1 (11/01): 牛油底+豬 ≈17½R-equiv → 155 then 73.
+- Day 2 (11/02): post-47 rebound, extra fast between R and I → 140 at 3h; evening 4H → 58.
+- Day 3 (11/03): 滷三層+ch. from 76: 5R → 3½R1½I (2¼h later, no BG) → 4I (2h later at 106) → 116 at 21:18, no low; ≈19R-equiv held at 106–116 — fatty belly + ml. = slow long rise. Not a clean score (no pre-I BG for the first I).
+- Review after ~3–5 days (due ~11/04–11/05).
 
-## 5. Tech setup (10/22)
-- User runs micro in `proot-distro login debian` inside Termux. tmux tried → colors + Chinese broken → **user asked to revert; all tmux files/lines removed** (Termux `~/.bashrc` back to original 204 bytes). Don't re-propose tmux.
-- Recommended instead: two Termux sessions (left drawer → NEW SESSION).
-- Debian micro lacks the Termux config (`/data/data/com.termux/files/home/.config/micro`: `mytheme` colorscheme, custom `syntax/markdown.yaml`, softwrap). **Offered (no answer yet):** A) `mv /root/.config/micro /root/.config/micro.debian-old && ln -s <termux path> /root/.config/micro`; B) `micro -config-dir <termux path>` / `MICRO_CONFIG_HOME`. Also suggested `"reload": "auto"` in micro settings.
+## 5. Health / mental
 
-## 6. Memory / workflow
-- User sends **"handoff"** before `/clear` → rewrite this file cleanly.
-- Custom edge-tts voice line per alarm (`audio/bg_HHMM_MMDD.mp3`, line appended to `documents/gen_bg_warnings.sh`), DeskClock intent (`--user 0`, local hour) + setsid script in `/data/data/com.termux/files/usr/tmp/opencode/`; real bash pid = `ps -ef | grep <name>`.
-- Day header: user said "new day" at 03:35 10/22; on 10/23 the agent added `#### 20261023Fri` at the 07:19 wake reading (no objection yet).
+- **Tongue biting in sleep:** nightly for decades. Agent: classic nocturnal-seizure sign (incl. hypoglycemic); also bruxism. Advised **CGM**, **神經內科** (EEG/sleep study), dentist night guard. Log `<!-- tongue bitten -->` + wake BG.
+- Violent thinking / social difficulty (20+ y): AGENTS.md §3 5-step response, 1925 / 119, encourage 身心科. 11/03 morning episode — ask time/trigger if user wants.
+- Cat litter hypothesis (10/31): mask/move box ~1 week; Toxoplasma IgG/IgM.
+- Urination/drained (from 10/25): urine test + ketone strip advised; **119** if fever + flank pain, vomiting, can't pee.
+
+## 6. Open questions to the user
+- Wake BG 11/04; 06:00 wake?; the midnight "felt hypo" — symptoms, any BG?; tongue bitten?
+- Litter box / mask; Toxoplasma test; urine test.
+- October rows for `insulin_daily_dosage.md` / `totals_stripe_combined.md` — offer.
+- `.gitignore` for Claude debug logs + `*.bak` (offered 10/23).
+
+## 7. Alarms / tech / git
+- **No alarms running** (offered 18:45 / 20:45 / 22:00 / 01:45 on 11/03 — none set).
+- Agent shell has **no GitHub credentials** → user runs `git push`. Use `git -c safe.directory='*'`.
+- Uncommitted: `bloodsugar.md`, `session_state.md` (+ earlier: `AGENTS.md`, `documents/gen_bg_warnings.sh`, `audio/*`, `image/*` if not yet committed).
+- micro runs in `proot-distro login debian` inside Termux. Don't re-propose tmux. User also uses `/remote-control`.
+
+## 8. Memory / workflow
+- "handoff" → rewrite this file; "new day" → add `#### YYYYMMDDDay` + wake reading as item 1.
+- Glucose logged as `[xxg]` (no 糖). Coffee as `[BC]` / `[鹽BC]` / `[cf.]`.
+- **No <70/70–100/≥100 action bands — in chat OR voice lines** (user 10/27).
+- Alarms: custom edge-tts line per alarm (`audio/bg_HHMM_MMDD.mp3`, line in `documents/gen_bg_warnings.sh`), DeskClock intent (`--user 0`, local hour) + setsid script in `/data/data/com.termux/files/usr/tmp/opencode/` (template `bg_1045_1026.sh`); verify with `ps -ef | grep '[b]ash /data.*bg_'`.
