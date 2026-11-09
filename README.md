@@ -1,4 +1,4 @@
-_Last Updated: 2026-10-14_
+_Last Updated: 2026-11-09_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -79,7 +79,7 @@ _Last Updated: 2026-10-14_
 |[ml₃]|3 spoons of milk powder|〘睡〙|go-back sleep|
 |[ct.]|Carmién Tea|[rc.]|riced cauliflower|
 |   [BC/BT]  |      bulletproof coffee/tea     |[ps.]|pumpkin seed|
-|      [ch.]      |                 cheese                |     |            |
+|      [ch.]      |                 cheese                |[cin.]|cinnamon|
 
 - Examples:
   - 07:44 101mg/dL₈(5⁵⁴/0⁵⁰,3³⁶,0⁵⁰): BG 101mg/dL from left middle-finger on nail-side at 7:44 AM, and the durations from last insulin dosages are 5h54m and 50m for Tresiba, 3h36m for NPH, and 50m for R/H/N.
